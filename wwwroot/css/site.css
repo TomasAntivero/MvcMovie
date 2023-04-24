@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.display-4 {
+    font-family:'Maiandra GD';
+    color:#000000;
+}
+
+h2 {
+    color:gray;
+    font-family:'Nirmala UI';
+    font-size:16px;
+}
+.img-center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+p {
+    font-family: 'Mongolian Baiti';
+    font-size:18px;
+    color:#000000;
+    text-align:center;
+}
+
