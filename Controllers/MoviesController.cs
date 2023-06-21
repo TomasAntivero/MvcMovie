@@ -61,7 +61,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Details/5
-        public IActionResult Delete_nuevo()
+        public async Task<IActionResult> Delete(int? id)
         {
 
             return View();
